@@ -66,6 +66,15 @@ int binaryToDecimal(int n)
 
 int main(){
 
+    string in, out;
+    cout << "Please input a vcd file name\n";
+    cin >> in;
+    cout << "Please input the name of the html output file\n";
+    cin >> out;
+    
+    openFile(in);
+    output(out);
+    
 //    openFile("DualPortedMem_tb.vcd");
 //    output("dualPorted_out.html");
 
@@ -75,8 +84,8 @@ int main(){
 //    openFile("adder_tb.vcd");
 //    output("adder_out.html");
     
-    openFile("counter_tb.vcd");
-    output("counter_out.html");
+//    openFile("counter_tb.vcd");
+//    output("counter_out.html");
     
 //    openFile("carrySaveAdder_tb.vcd");
 //    output("CSAadder_out.html");
