@@ -41,15 +41,15 @@ int findGCD(vector <int> arr)
 }
 
 //taken from geeks for geeks.. converts from binary to decimal number
-int binaryToDecimal(int n)
+int binaryToDecimal(long long n)
 {
-    int num = n;
+    long long num = n;
     int dec_value = 0;
     
     // Initializing base value to 1, i.e 2^0
     int base = 1;
     
-    int temp = num;
+    long long temp = num;
     while (temp)
     {
         int last_digit = temp % 10;
@@ -153,7 +153,7 @@ void parse (ifstream & inp){
                         }
                         int v;
                         if (value != "x" && value!= "z"){
-                            v = binaryToDecimal(stoi(value)); //converting value to decimal
+                            v = binaryToDecimal(stol(value)); //converting value to decimal
                             inp >> t; //getting encoding
                             symbols[t].push_back(to_string(v));
                         } else {

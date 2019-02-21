@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		11370B12221EB825002E7370 /* mul.vcd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mul.vcd; sourceTree = "<group>"; };
 		117B951322196F6500F065B9 /* dd2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dd2; sourceTree = BUILT_PRODUCTS_DIR; };
 		117B951622196F6500F065B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		117B951D2219733F00F065B9 /* carrySaveAdder_tb.vcd */ = {isa = PBXFileReference; lastKnownFileType = text; path = carrySaveAdder_tb.vcd; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 				11BE289D221AEF330018EB14 /* RegisterFile_tb.vcd */,
 				11BE289C221ADD250018EB14 /* DualPortedMem_tb.vcd */,
 				117B951622196F6500F065B9 /* main.cpp */,
+				11370B12221EB825002E7370 /* mul.vcd */,
 				11BE289B221AD8900018EB14 /* counter_tb.vcd */,
 				117B951D2219733F00F065B9 /* carrySaveAdder_tb.vcd */,
 			);
